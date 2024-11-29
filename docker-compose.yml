@@ -1,6 +1,6 @@
 version: '3'
 services:
   nginx:
-    image: nginx
+    image: hathao/docker-cicd:202411291156
     ports:
       - "8080:80"
